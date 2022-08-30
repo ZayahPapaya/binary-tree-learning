@@ -39,7 +39,7 @@ describe("Creates trees of varying sizes", () => {
   const tree2 = new BinaryTree(new Node(1));
 
   it("contains one node", () => {
-    expect(tree.root).toBe(1);
+    expect(tree2.root.value).toBe(1);
   });
 
 });
