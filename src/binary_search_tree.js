@@ -37,9 +37,20 @@ class BinarySearchTree extends BinaryTree {
       } else if (number > tracker.value) {
         tracker = tracker.right; // if number is larger than the node, go right because right is larger numbers
       } //else {
-        //return false
+      //return false
       //}
     }
+  }
+
+  findMax() {
+    if (this.root === undefined) { return undefined };
+    let max = undefined;
+    this.preOrder().forEach(value => {
+      if (value > max || !max) {
+        max = value
+      }
+    });
+    return max;
   }
 }
 
