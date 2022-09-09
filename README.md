@@ -1,9 +1,11 @@
-# Trees
+# Breadth-first traversal
 
-## Challenge
+## Challenge 17
 
-Writing a function that searches out the largest value stored in the tree.
+Write a function called breadthFirst that returns an array of all values in a node tree in the order they were encountered. The function should  take in the tree as an argument.
 
 ## Approach & Efficiency
 
-![cc16.png](cc16.png)
+This was explained very clearly by JD and helps establish more recursive thinking in my head. Thank you JD! The approach shown in class is exceptionally clean and I struggled to improve upon it outside just translating it to JavaScript. I cannot even think of how to shrink it down to fewer lines.
+
+![cc17.png](cc17.png)
